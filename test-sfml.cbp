@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test-sfml" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test-sfml" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test-sfml" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="sfml">
+				<Option output="bin/sfml/test-sfml" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/sfml/" />
+				<Option object_output="obj/sfml/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/sfml/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/sfml/lib" />
+		</Linker>
+		<Unit filename="Fuente.ttf" />
+		<Unit filename="coca.cpp" />
+		<Unit filename="coca.h" />
+		<Unit filename="cocal.png" />
+		<Unit filename="cocan.png" />
+		<Unit filename="cocaz.png" />
+		<Unit filename="cola.cpp" />
+		<Unit filename="cola.h" />
+		<Unit filename="fabrica.cpp" />
+		<Unit filename="fabrica.h" />
+		<Unit filename="fondo.jpg" />
+		<Unit filename="fondoFabrica.jpg" />
+		<Unit filename="lit.png" />
+		<Unit filename="madera.png" />
+		<Unit filename="normal.png" />
+		<Unit filename="pantalla.png" />
+		<Unit filename="scanner.png" />
+		<Unit filename="scannert.png" />
+		<Unit filename="teclado.cpp" />
+		<Unit filename="teclado.h" />
+		<Unit filename="test.cpp" />
+		<Unit filename="tv.png" />
+		<Unit filename="vacio.png" />
+		<Unit filename="zero.png" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
